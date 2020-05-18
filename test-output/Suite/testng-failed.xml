@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="IE">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="seleniumGrid.TestGridClass"/>
+    </classes>
+  </test> <!-- IE -->
+  <test name="Chrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="seleniumGrid.TestGridClass"/>
+    </classes>
+  </test> <!-- Chrome -->
+  <test name="Firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="seleniumGrid.TestGridClass"/>
+    </classes>
+  </test> <!-- Firefox -->
+</suite> <!-- Failed suite [Suite] -->
