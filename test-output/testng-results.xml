@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="113445" started-at="2020-05-18T10:03:12Z" finished-at="2020-05-18T10:05:05Z">
+  <suite name="Suite" duration-ms="113671" started-at="2020-05-28T08:16:13Z" finished-at="2020-05-28T08:18:06Z">
     <groups>
     </groups>
-    <test name="IE" duration-ms="87567" started-at="2020-05-18T10:03:12Z" finished-at="2020-05-18T10:04:39Z">
+    <test name="IE" duration-ms="86862" started-at="2020-05-28T08:16:13Z" finished-at="2020-05-28T08:17:39Z">
       <class name="seleniumGrid.TestGridClass">
-        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="launchbrowser" is-config="true" duration-ms="64172" started-at="2020-05-18T15:33:12Z" finished-at="2020-05-18T15:34:16Z">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="launchbrowser" is-config="true" duration-ms="62633" started-at="2020-05-28T13:46:13Z" finished-at="2020-05-28T13:47:15Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="calculatepercent" duration-ms="17779" started-at="2020-05-18T15:34:16Z" finished-at="2020-05-18T15:34:34Z">
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="calculatepercent" duration-ms="18492" started-at="2020-05-28T13:47:15Z" finished-at="2020-05-28T13:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculatepercent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="tearDown" is-config="true" duration-ms="5597" started-at="2020-05-18T15:34:34Z" finished-at="2020-05-18T15:34:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@4fb64261]" name="tearDown" is-config="true" duration-ms="5720" started-at="2020-05-28T13:47:34Z" finished-at="2020-05-28T13:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seleniumGrid.TestGridClass -->
     </test> <!-- IE -->
-    <test name="Chrome" duration-ms="94793" started-at="2020-05-18T10:03:12Z" finished-at="2020-05-18T10:04:46Z">
+    <test name="Chrome" duration-ms="88206" started-at="2020-05-28T08:16:13Z" finished-at="2020-05-28T08:17:41Z">
       <class name="seleniumGrid.TestGridClass">
-        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="launchbrowser" is-config="true" duration-ms="70806" started-at="2020-05-18T15:33:12Z" finished-at="2020-05-18T15:34:22Z">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="launchbrowser" is-config="true" duration-ms="68276" started-at="2020-05-28T13:46:13Z" finished-at="2020-05-28T13:47:21Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="calculatepercent" duration-ms="18836" started-at="2020-05-18T15:34:22Z" finished-at="2020-05-18T15:34:41Z">
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="calculatepercent" duration-ms="13759" started-at="2020-05-28T13:47:21Z" finished-at="2020-05-28T13:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculatepercent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="tearDown" is-config="true" duration-ms="5146" started-at="2020-05-18T15:34:41Z" finished-at="2020-05-18T15:34:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@481a15ff]" name="tearDown" is-config="true" duration-ms="6163" started-at="2020-05-28T13:47:35Z" finished-at="2020-05-28T13:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seleniumGrid.TestGridClass -->
     </test> <!-- Chrome -->
-    <test name="Firefox" duration-ms="113445" started-at="2020-05-18T10:03:12Z" finished-at="2020-05-18T10:05:05Z">
+    <test name="Firefox" duration-ms="113671" started-at="2020-05-28T08:16:13Z" finished-at="2020-05-28T08:18:06Z">
       <class name="seleniumGrid.TestGridClass">
-        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="launchbrowser" is-config="true" duration-ms="82964" started-at="2020-05-18T15:33:12Z" finished-at="2020-05-18T15:34:35Z">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="launchbrowser" is-config="true" duration-ms="82037" started-at="2020-05-28T13:46:13Z" finished-at="2020-05-28T13:47:35Z">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="calculatepercent" duration-ms="21841" started-at="2020-05-18T15:34:35Z" finished-at="2020-05-18T15:34:56Z">
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="calculatepercent" duration-ms="21135" started-at="2020-05-28T13:47:35Z" finished-at="2020-05-28T13:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculatepercent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="tearDown" is-config="true" duration-ms="8636" started-at="2020-05-18T15:34:56Z" finished-at="2020-05-18T15:35:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:seleniumGrid.TestGridClass@4c762604]" name="tearDown" is-config="true" duration-ms="10492" started-at="2020-05-28T13:47:56Z" finished-at="2020-05-28T13:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

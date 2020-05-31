@@ -38,7 +38,7 @@ public class TestGridClass {
 			cap.setBrowserName("firefox");
 			driver = new RemoteWebDriver(new URL(Node), cap);*/
 			
-			String myProjectARN = "arn:aws:devicefarm:us-west-2:114338154283:testgrid-project:005ac4b4-e1a9-48b6-8e68-54390e75d6e6";
+			String myProjectARN = "arn:aws:devicefarm:us-west-2:114338154283:testgrid-project:e7b30d7f-2563-46d0-9d28-bc267c7d2837";
 		    DeviceFarmClient client  = DeviceFarmClient.builder().region(Region.US_WEST_2).build();
 		    CreateTestGridUrlRequest request = CreateTestGridUrlRequest.builder()
 		      .expiresInSeconds(300)
@@ -65,7 +65,7 @@ public class TestGridClass {
 			String Node = "http://10.0.75.1:5567/wd/hub";
 			driver = new RemoteWebDriver(new URL(Node), cap);*/
 			
-			String myProjectARN = "arn:aws:devicefarm:us-west-2:114338154283:testgrid-project:005ac4b4-e1a9-48b6-8e68-54390e75d6e6";
+			String myProjectARN = "arn:aws:devicefarm:us-west-2:114338154283:testgrid-project:e7b30d7f-2563-46d0-9d28-bc267c7d2837";
 		    DeviceFarmClient client  = DeviceFarmClient.builder().region(Region.US_WEST_2).build();
 		    CreateTestGridUrlRequest request = CreateTestGridUrlRequest.builder()
 		      .expiresInSeconds(300)
